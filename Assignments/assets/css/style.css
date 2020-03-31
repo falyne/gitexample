@@ -1,0 +1,37 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 100px;
+}
+
+.navbar .navbar-collapse .navbar-nav li a |hover{
+  color: #67f6;
+  background-color: black;
+  opacity: 0.5;
+
+}
+footer.page-footer .footer-copyright {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ background: black;
+z-index:9999999;}
+
+.th-sm1 {
+  color: orange;
+}
+.th-sm2 {
+  color: blue;
+}
+.th-sm4 {
+  color: red;
+}
+
+.forminput::{
+    color: azure;
+}
